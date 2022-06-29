@@ -7,7 +7,7 @@ declare -a BASH_ARGV=()
 declare -A BASH_CMDS=()
 declare -- BASH_COMMAND="git add -A"
 declare -a BASH_COMPLETION_VERSINFO=([0]="2" [1]="8")
-declare -a BASH_LINENO=([0]="4")
+declare -a BASH_LINENO=([0]="31")
 declare -ar BASH_REMATCH=()
 declare -a BASH_SOURCE=([0]="/home/ubuntu/.bashrc")
 declare -- BASH_SUBSHELL
@@ -43,7 +43,7 @@ declare -x NODE_PATH="/home/ubuntu/.npm-packages/lib/node_modules:"
 declare -x NOKOGIRI_USE_SYSTEM_LIBRARIES="1"
 declare -x NPM_CONFIG_PREFIX="/home/ubuntu/.npm-packages"
 declare -- NPM_PACKAGES="/home/ubuntu/.npm-packages"
-declare -x OLDPWD
+declare -x OLDPWD="/home/ubuntu/example-app"
 declare -- OPTERR="1"
 declare -i OPTIND="1"
 declare -- OSTYPE="linux-gnu"
@@ -62,6 +62,8 @@ declare -- SECONDS
 declare -x SHELL="/bin/bash"
 declare -r SHELLOPTS="braceexpand:emacs:hashall:histexpand:history:interactive-comments:monitor"
 declare -x SHLVL="2"
+declare -x SSH_AGENT_PID="5316"
+declare -x SSH_AUTH_SOCK="/tmp/ssh-sVzgtcKmou5X/agent.5315"
 declare -x S_COLORS="auto"
 declare -x TERM="xterm-256color"
 declare -x TMUX="/tmp/tmux-1000/default,3578,0"
